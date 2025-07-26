@@ -1,0 +1,11 @@
+Can't remove nan valus, too much important features will be loss
+
+Outliers detection in time spent alone between 8 to 10 hours+
+
+Num vs target_col
+Extrovert exhibit an Outliers of 7-10+hrs Time_spent_Alone
+Introvert exhibit an Outliers of 7-10+hrs Social_event_attendance
+Introvert exhibit an Outliers of 5-7+hrs Going_outside
+Introvert exhibit an Outliers of 8-14+ hours Friends_circle_size
+
+Use Bins to correct Numerical outliers

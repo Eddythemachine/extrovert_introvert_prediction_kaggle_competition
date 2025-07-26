@@ -1,0 +1,141 @@
+
+
+## 📊 Value Counts by Feature
+
+### Time Spent Alone
+
+| Time Spent Alone | Count |
+|------------------|-------|
+| 0.0              | 3139  |
+| 3.0              | 3081  |
+| 2.0              | 3039  |
+| 1.0              | 2973  |
+| 4.0              | 1079  |
+| 5.0              | 633   |
+| 10.0             | 587   |
+| 8.0              | 582   |
+| 7.0              | 581   |
+| 6.0              | 574   |
+| 9.0              | 574   |
+| 11.0             | 492   |
+
+---
+
+### Social Event Attendance
+
+| Social Event Attendance | Count |
+|--------------------------|-------|
+| 4.0                      | 2073  |
+| 9.0                      | 2063  |
+| 7.0                      | 2031  |
+| 5.0                      | 1985  |
+| 6.0                      | 1984  |
+| 8.0                      | 1945  |
+| 3.0                      | 1703  |
+| 2.0                      | 1063  |
+| 0.0                      | 1055  |
+| 1.0                      | 978   |
+| 10.0                     | 464   |
+
+---
+
+### Going Outside
+
+| Going Outside | Count |
+|----------------|-------|
+| 5.0            | 2923  |
+| 3.0            | 2822  |
+| 4.0            | 2703  |
+| 6.0            | 2702  |
+| 7.0            | 2170  |
+| 0.0            | 1324  |
+| 2.0            | 1279  |
+| 1.0            | 1135  |
+
+---
+
+### Friends Circle Size
+
+| Friends Circle Size | Count |
+|----------------------|-------|
+| 5.0                  | 1669  |
+| 4.0                  | 1317  |
+| 12.0                 | 1317  |
+| 8.0                  | 1281  |
+| 10.0                 | 1267  |
+| 11.0                 | 1253  |
+| 14.0                 | 1188  |
+| 6.0                  | 1146  |
+| 7.0                  | 1124  |
+| 9.0                  | 1061  |
+| 13.0                 | 1048  |
+| 15.0                 | 943   |
+| 3.0                  | 866   |
+| 2.0                  | 770   |
+| 1.0                  | 753   |
+| 0.0                  | 467   |
+
+---
+
+### Post Frequency
+
+| Post Frequency | Count |
+|----------------|-------|
+| 3.0            | 2258  |
+| 7.0            | 1827  |
+| 5.0            | 1788  |
+| 6.0            | 1767  |
+| 9.0            | 1744  |
+| 8.0            | 1734  |
+| 4.0            | 1688  |
+| 2.0            | 1291  |
+| 0.0            | 1272  |
+| 1.0            | 1214  |
+| 10.0           | 677   |
+
+
+## Null values in the dataset:
+Time_spent_Alone             1190
+Stage_fear                   1893
+Social_event_attendance      1180
+Going_outside                1466
+Drained_after_socializing    1149
+Friends_circle_size          1054
+Post_frequency               1264
+Personality                     0
+dtype: int64
+
+
+Can't remove nan valus, too much important features will be loss
+
+Outliers detection in time spent alone between 8 to 10 hours+
+
+
+## 📊 Value Counts for Categorical Features
+
+### Stage Fear
+
+| Stage Fear | Count |
+|------------|-------|
+| No         | 12,609 |
+| Yes        | 4,022  |
+| NaN        | 1,893  |
+
+---
+
+### Drained After Socializing
+
+| Drained After Socializing | Count |
+|----------------------------|-------|
+| No                         | 13,313 |
+| Yes                        | 4,062  |
+| NaN                        | 1,149  |
+
+---
+
+### Personality
+
+| Personality | Count |
+|-------------|-------|
+| Extrovert   | 13,699 |
+| Introvert   | 4,825  |
